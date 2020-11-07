@@ -38,3 +38,5 @@ yarn.lock
 
 #vscode
 /.vscode
+yarn.lock
+.vscode/settings.json
