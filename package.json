@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build-production": "cross-env NODE_ENV=production yarn build",
     "start": "next start",
     "lint": "eslint src",
     "test": "jest",
@@ -34,6 +35,7 @@
     "@typescript-eslint/parser": "^4.6.1",
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.11.1",
+    "cross-env": "^7.0.2",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
